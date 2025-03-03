@@ -16,7 +16,7 @@
 
 
 body{
-    font-family: "Outfit", serif;
+    /* font-family: "Outfit", serif; */
     background-image: url('/project/FAQ/assets/images/background-pattern-mobile.svg');
     background-repeat: repeat-x;
     background-color:hsl(293, 55%, 85%);
@@ -37,6 +37,10 @@ body{
 div{
     display:inline-block;
 }
+
+#faq{
+    font-weight: 700;
+}
     
     
 
@@ -55,7 +59,7 @@ div{
 }
 .box1{
     height: 90px;
-    font-size: small;
+    font-size: 17px;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -90,6 +94,7 @@ button :hover{
 .box1{
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
     
     
 }
@@ -104,7 +109,11 @@ button :hover{
     cursor: pointer;
 }
 
-
+p{
+    color: hsl(292, 16%, 49%);
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 
