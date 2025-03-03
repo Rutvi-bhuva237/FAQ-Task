@@ -8,7 +8,11 @@
     font-family: "outit", "swrif";
 
 }
-
+ 
+#img{
+    height: 39px;
+    width: 39px;
+}
 
 
 body{
@@ -37,12 +41,13 @@ div{
     
 
 .bottom{
-    height: 500px;
+    /* height: 500px; */
     width: 500px;
     background-color: #ffffff;
     font-size:50px;
     font-family:sans-serif;
     border-radius: 2%;
+    
     padding:40px 40px 40px 40px;
     
     
@@ -52,8 +57,14 @@ div{
     height: 90px;
     font-size: small;
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+}
+.pbox1{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 img{
@@ -64,8 +75,8 @@ img{
     
 button{
      
-     height: 10px;
-     width: 10px;
+     height: 14px;
+     width: 14px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -74,7 +85,8 @@ button{
 }
 button :hover{
     border: 2px solid black;
-}   
+}
+   
 .box1{
     display: flex;
     justify-content: space-between;
@@ -84,6 +96,17 @@ button :hover{
   .box1:hover{
       color: purple;
 }
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
 
 @media (min-width:200px) and (max-width:375px){
     body{

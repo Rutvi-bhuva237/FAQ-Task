@@ -18,36 +18,48 @@
   <div class="main">
     <div class="bottom">
       
-      <img  src="/project/FAQ/assets/images/icon-star.svg" alt=""><span><b>   FAQs</b></span>
+      <img id="img" src="/project/FAQ/assets/images/icon-star.svg" alt="">  <b>FAQs</b> 
       
     
    
     
       <div class="box1">
-                  What is frontend mentor and how will it help me? <button ><img src="/project/FAQ/assets/images/icon-plus.svg" alt=""></button>
+                  What is frontend mentor and how will it help me? <button onclick="displaytext()"><img id= "btnimg" src="/project/FAQ/assets/images/icon-plus.svg" alt=""></button></div>
+                  <div class = "pbox1"><p id = "textField" style="display: none;" class="answer">Frontend Mentors offers realistic coding challenges to help developers improve their frontend coding skills with project containing HTML,CSS and JavaScript.It's suitable for all levels and ideal for portfolio building.</p>
+                
+                
        </div>
+       
       <hr>
       
+      
        <div class="box1">
-      Is frontend mentor free?<button><img src="/project/FAQ/assets/images/icon-plus.svg" alt="">
-      </div>
+      Is frontend mentor free?<button onclick="displaytext2()"><img id = "btnimg2" src="/project/FAQ/assets/images/icon-plus.svg" alt=""></button></div>
+        <div class="pbox1"><p id="textField2" style="display: none;" >Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+          option providing access to a range of projects suitable for all skill levels.
+        </p></div>
+      
       <hr>
       
       <div class="box1">
-        Can I use frontend Mentor projects in my portfolio?<button><img src="/project/FAQ/assets/images/icon-plus.svg" alt="">
-        </div>
+        Can I use frontend Mentor projects in my portfolio?<button onclick="displaytext3()"><img id="btnimg3" src="/project/FAQ/assets/images/icon-plus.svg" alt=""></button></div>
+          <div class="pbox1"><p id="textField3" style="display: none;">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+            way to showcase your skills to potential employers!</p></div>
+        
         <hr>
        
         <div class="box1">
-          How can I get help if I am stuck on a challenge?<button><img src="/project/FAQ/assets/images/icon-plus.svg" alt="">
-          </div>
+          How can I get help if I am stuck on a challenge?<button onclick="displaytext4()"><img id="btnimg4" src="/project/FAQ/assets/images/icon-plus.svg" alt=""></button></div>
+            <div class="pbox1"><p id="textField4" style="display: none;">The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+              channel where you can ask questions and seek support from other community members.
+            </p></div>
+          
        
-        </div>
+        
   </div>
   </div>
 
   
-
-  
+<script src="faq.js"></script>
 </body>
 </html>
